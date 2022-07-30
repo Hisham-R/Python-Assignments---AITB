@@ -1,0 +1,52 @@
+1. 
+Lists - Used to store multiple data in a single variable, just like the arrays.
+Tuple - Used to store multiple data in a single variable.  Faster than the list but Tuple is unchangable.
+Key Difference: 
+Lists                           Tuple
+Mutable                        Immutable
+Consume more memeory           Consume less memeory
+
+
+2.
+Break - Used to terminate loop
+Continue - Forces the loop to continue or execute the next iteration.
+Pass - Used when a statement is required syntactically but you do not want any command or code to execute. It is like null operation, but it can also be used for writing empty loops, function and classes.
+
+
+3.
+Self - Used to represents the instance of the class so we can access the attributes and methods of the class.
+ 
+
+4.
+Docstrings - provide a suitable way of connecting documentation with Python modules, functions, classes, and methods.
+
+
+5.
+Multiple Inheritance - The features of all the base classes are inherited into the derived class.
+
+
+//Parent is the parent class aka base class
+//Child is child class aka sub class
+Example: 
+
+class Parent:
+   def python(self):
+      print("I Learn Python")
+   def hacking(self):
+      print("I Learn Ethical Hacking")
+
+class Child(Parent):
+   def prog(self):
+      print("I Learn Programming.")
+
+   def web(self):
+      print("I Learn Web Dev.")
+      print(issubclass(Child, Parent))
+
+Output= Child()
+print(isinstance(Output, Child))
+
+Output.python()
+Output.hacking()
+Output.prog()
+Output.web()

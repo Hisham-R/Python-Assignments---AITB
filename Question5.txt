@@ -1,0 +1,8 @@
+1. 
+Defaut constructor - simple constructor which doesn't accept any arguments, has only one argument
+Parameterized constructor -  constructor with parameters is known as parameterized constructor
+
+
+2. 
+Class - holds its own data members and member functions, which can be accessed and used by creating an instance of that class.
+Object - is an instance of a class. All data members and member functions of the class can be accessed
